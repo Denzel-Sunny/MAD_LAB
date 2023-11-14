@@ -1,0 +1,66 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:hint="Num 1"/>
+        
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:hint="Num 2"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:onClick="ADD"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="SUB"
+        android:text="SUB" />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="MULT"
+        android:onClick="MULT"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="DIV"
+        android:onClick="DIV"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESULT"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="160dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
